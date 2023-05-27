@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Flipkart",
+    "slug": "Flipkart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.maryam03.Flipkart"
+    },
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyAYEkl4Du9zEcm1X2u1HEepM8DAuk9dYUk"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7a306a3d-aa73-4937-abf8-17533df23c5b"
+      }
+    }
+  }
+}
